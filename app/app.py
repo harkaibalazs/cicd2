@@ -10,7 +10,7 @@ def health():
 
 @app.route("/")
 def hello_world():
-    return "Hello, World!!"
+    return "Hello, World!!".capitalize()
 
 
 if __name__ == '__main__':
